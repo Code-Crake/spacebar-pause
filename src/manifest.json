@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Universal Spacebar Pause",
+  "version": "1.0.0",
+  "description": "Pause/play any media with spacebar on any website",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content/spacebar-handler.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

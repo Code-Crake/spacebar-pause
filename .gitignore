@@ -1,0 +1,41 @@
+# Project documentation files (for development only)
+files.md
+claude.md
+notes.md
+
+# Node modules
+node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+build/
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Environment files
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Logs
+*.log
+npm-debug.log*
